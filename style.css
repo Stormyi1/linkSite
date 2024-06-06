@@ -22,6 +22,7 @@ body{
 .box{
     height: 70vh;
     width: 22.5vw;
+    min-width: 400px;
     border-radius: 15px;
     background: hsl(0, 0%, 12%);
 }
@@ -116,10 +117,11 @@ body{
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
     .box{
         width: 90vw;
         height: 80vh;
+        min-width: 10px;
     }
     #bio{
         font-size: 14px;
